@@ -1,0 +1,31 @@
+name: flutter_typeform
+description: A new Flutter plugin project.
+version: 0.0.1
+homepage: https://github.com/pretodev/flutter_typeform
+
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  js: ^0.6.4
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  plugin:
+    platforms:
+      web:
+        pluginClass: FlutterTypeformWeb
+        fileName: flutter_typeform_web.dart
+
+  assets:
+    - packages/flutter_typeform/assets/flutter_typeform.js

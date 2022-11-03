@@ -1,0 +1,25 @@
+name: flutter_typeform_example
+description: Demonstrates how to use the flutter_typeform plugin.
+
+publish_to: "none"
+
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_typeform:
+    path: ../
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
